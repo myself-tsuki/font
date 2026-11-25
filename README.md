@@ -3,6 +3,8 @@
 A small, self-hosted font collection served free from GitHub + jsDelivr.
 Every family, weight, style, variable axis and file is listed in one machine-readable index: **[`fonts.json`](fonts.json)**.
 
+Want to add a font? See **[CONTRIBUTING.md](CONTRIBUTING.md)**.
+
 | Family | Weights | Styles | Axes | License |
 | --- | --- | --- | --- | --- |
 | Google Sans | 400–700 | normal, italic | `wght` 400–700, `opsz` 17–18, `GRAD` −50–200 | OFL 1.1 |
@@ -165,16 +167,16 @@ fonts.json               index of all families, variants and URLs
 scripts/build_index.py   regenerates fonts.json and css/
 ```
 
-## Adding a font
+## Adding a font / contributing
 
-1. Put the files in `fonts/<FamilyName>/` together with the license.
-2. Optionally add its designer/category to `META` in `scripts/build_index.py`.
-3. Run:
-   ```sh
-   pip install fonttools
-   python3 scripts/build_index.py
-   ```
-4. Commit `fonts/`, `css/` and `fonts.json`.
+Want a font added? Read the full guide in **[CONTRIBUTING.md](CONTRIBUTING.md)**. It covers license rules, where files go, naming conventions, regenerating the index, testing, and what to include in a pull request.
+
+Short version:
+
+1. Check that the license allows redistribution (OFL is fine; Fontshare fonts like Satoshi are not).
+2. Put the files in `fonts/<FamilyName>/` with `OFL.txt`, named `<FamilyName>-VariableFont_<axes>.ttf`.
+3. Run `pip install fonttools && python3 scripts/build_index.py`.
+4. Open a PR titled `Add <Family Name>` that includes the source URL, license and version.
 
 ## Licenses
 
