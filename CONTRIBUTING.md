@@ -10,7 +10,7 @@ Thanks for helping grow the collection. This guide walks through adding a font f
 - [6. Regenerate the index and CSS](#6-regenerate-the-index-and-css)
 - [7. Test it](#7-test-it)
 - [8. Open a pull request](#8-open-a-pull-request)
-- [Fonts that can't be hosted (like Satoshi)](#fonts-that-cant-be-hosted-like-satoshi)
+- [Fonts that can't be hosted (like Fontshare fonts)](#fonts-that-cant-be-hosted-like-fontshare-fonts)
 - [Updating an existing font](#updating-an-existing-font)
 - [Troubleshooting](#troubleshooting)
 
@@ -23,7 +23,7 @@ This repo is public, and every file in it is redistributed. Only add font **file
 | License | Can the files go in this repo? |
 | --- | --- |
 | SIL Open Font License 1.1 (OFL), which covers almost everything on Google Fonts | **Yes.** Include `OFL.txt`. |
-| Fontshare / ITF Free Font License (Satoshi, General Sans, Clash Display…) | **No.** List it as an external font instead ([see below](#fonts-that-cant-be-hosted-like-satoshi)). |
+| Fontshare / ITF Free Font License (General Sans, Clash Display…) | **No.** List it as an external font instead ([see below](#fonts-that-cant-be-hosted-like-fontshare-fonts)). |
 | Commercial, "free for personal use", or no license stated | **No.** Don't add it at all. |
 
 `scripts/build_index.py` labels every hosted family as `SIL Open Font License 1.1`. If you want to add a font under another redistributable license (for example Apache 2.0), open an issue first so the script can be updated to read that license.
@@ -196,15 +196,14 @@ A PR will be asked for changes if it includes files without a redistributable li
 
 ---
 
-## Fonts that can't be hosted (like Satoshi)
+## Fonts that can't be hosted (like Fontshare fonts)
 
-Some fonts are free to use but not to redistribute. Satoshi is one: its ITF Free Font License forbids hosting the files in a public repository. These fonts can still be listed in `fonts.json`, pointing at the official source, so people can find them.
+Some fonts are free to use but not to redistribute. Fontshare fonts are an example: their ITF Free Font License forbids hosting the files in a public repository. These fonts can still be listed in `fonts.json`, pointing at the official source, so people can find them.
 
-**Don't commit the files.** Add an entry to the `EXTERNAL` list in `scripts/build_index.py`, following the Satoshi entry:
+**Don't commit the files.** Add an entry to the `EXTERNAL` list in `scripts/build_index.py`:
 
 ```python
 EXTERNAL = [
-    # ... existing Satoshi entry ...
     {
         "family": "General Sans",
         "slug": "general-sans",
@@ -224,7 +223,7 @@ EXTERNAL = [
 ]
 ```
 
-Open the `css` URL in a browser to check that it works before you submit. Then run the script and mark the font with `*` in the README table, as Satoshi is.
+Open the `css` URL in a browser to check that it works before you submit. Then run the script and add the font to the README table, marked with `*` and a note that it is not hosted here.
 
 ## Updating an existing font
 

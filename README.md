@@ -16,11 +16,8 @@ Want to add a font? See **[CONTRIBUTING.md](CONTRIBUTING.md)**.
 | Nunito | 200–1000 | normal, italic | `wght` 200–1000 | OFL 1.1 |
 | Inter | 100–900 | normal, italic | `wght` 100–900, `opsz` 14–32 | OFL 1.1 |
 | Atkinson Hyperlegible Next | 200–800 | normal, italic | `wght` 200–800 | OFL 1.1 |
-| Satoshi\* | 300–900 | normal, italic | `wght` 300–900 | ITF Free Font License |
 
-\* **Satoshi is listed but not hosted here.** Its license (ITF Free Font License) does not allow re-hosting the files in a public repository, so `fonts.json` points to the official Fontshare CSS and download instead (`"hosted": false`).
-
-All other fonts are variable fonts (one file covers every weight) from [Google Fonts](https://github.com/google/fonts), released under the SIL Open Font License 1.1. Each folder in `fonts/` includes its `OFL.txt`.
+All fonts are variable fonts (one file covers every weight) from [Google Fonts](https://github.com/google/fonts), released under the SIL Open Font License 1.1. Each folder in `fonts/` includes its `OFL.txt`.
 
 ---
 
@@ -42,12 +39,6 @@ Available stylesheets (`css/<slug>.css`):
 `google-sans.css`, `figtree.css`, `outfit.css`, `plus-jakarta-sans.css`, `nunito.css`, `inter.css`, `atkinson-hyperlegible-next.css`
 
 All of them at once: `https://cdn.jsdelivr.net/gh/myself-tsuki/font@main/css/all.css`
-
-Satoshi (official CDN):
-
-```html
-<link rel="stylesheet" href="https://api.fontshare.com/v2/css?f[]=satoshi@1,2&display=swap">
-```
 
 ### Option 2: CSS `@import`
 
@@ -109,7 +100,7 @@ document.fonts.add(await face.load());
 {
   "cdn": "https://cdn.jsdelivr.net/gh/myself-tsuki/font@main/",
   "allCss": ".../css/all.css",
-  "count": 8,
+  "count": 7,
   "fonts": [
     {
       "family": "Figtree",
@@ -152,7 +143,6 @@ document.fonts.add(await face.load());
   curl -LO "https://raw.githubusercontent.com/myself-tsuki/font/main/fonts/Outfit/Outfit-VariableFont_wght.ttf"
   ```
 - **Everything:** `git clone https://github.com/myself-tsuki/font.git` or *Code → Download ZIP*.
-- **Satoshi:** https://www.fontshare.com/fonts/satoshi
 
 Double-click a `.ttf` to install it on your computer (Windows, macOS and Linux).
 
@@ -174,11 +164,11 @@ Want a font added? Read the full guide in **[CONTRIBUTING.md](CONTRIBUTING.md)**
 
 Short version:
 
-1. Check that the license allows redistribution (OFL is fine; Fontshare fonts like Satoshi are not).
+1. Check that the license allows redistribution (OFL is fine; Fontshare/ITF fonts are not).
 2. Put the files in `fonts/<FamilyName>/` with `OFL.txt`, named `<FamilyName>-VariableFont_<axes>.ttf`.
 3. Run `pip install fonttools && python3 scripts/build_index.py`.
 4. Open a PR titled `Add <Family Name>` that includes the source URL, license and version.
 
 ## Licenses
 
-Fonts are the property of their designers. The OFL fonts may be used, shared and embedded freely, including commercially; see each `OFL.txt`. Satoshi is © Indian Type Foundry and must be obtained from Fontshare.
+Fonts are the property of their designers. The OFL fonts may be used, shared and embedded freely, including commercially; see each `OFL.txt`.

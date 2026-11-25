@@ -28,24 +28,7 @@ META = {
 }
 
 # Fonts whose license does not allow re-hosting: listed, served from the official CDN.
-EXTERNAL = [
-    {
-        "family": "Satoshi",
-        "slug": "satoshi",
-        "category": "sans-serif",
-        "designer": "Deni Anggara, Indian Type Foundry",
-        "license": "ITF Free Font License (no redistribution)",
-        "source": "https://www.fontshare.com/fonts/satoshi",
-        "hosted": False,
-        "note": "The license forbids re-hosting the files in a public repository, so they are not in this repo. Use the official Fontshare CSS or download from fontshare.com.",
-        "css": "https://api.fontshare.com/v2/css?f[]=satoshi@1,2&display=swap",
-        "download": "https://api.fontshare.com/v2/fonts/download/satoshi",
-        "axes": [{"tag": "wght", "min": 300, "max": 900, "default": 400}],
-        "weights": [300, 400, 500, 700, 900],
-        "styles": ["normal", "italic"],
-        "files": [],
-    }
-]
+EXTERNAL = []
 
 WEIGHT_NAMES = {100: "Thin", 200: "ExtraLight", 300: "Light", 400: "Regular", 500: "Medium",
                 600: "SemiBold", 700: "Bold", 800: "ExtraBold", 900: "Black", 1000: "ExtraBlack"}

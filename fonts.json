@@ -4,7 +4,7 @@
   "repository": "https://github.com/myself-tsuki/font",
   "cdn": "https://cdn.jsdelivr.net/gh/myself-tsuki/font@main/",
   "allCss": "https://cdn.jsdelivr.net/gh/myself-tsuki/font@main/css/all.css",
-  "count": 8,
+  "count": 7,
   "fonts": [
     {
       "family": "Atkinson Hyperlegible Next",
@@ -654,38 +654,6 @@
           "raw": "https://raw.githubusercontent.com/myself-tsuki/font/main/fonts/PlusJakartaSans/PlusJakartaSans-Italic-VariableFont_wght.ttf"
         }
       ]
-    },
-    {
-      "family": "Satoshi",
-      "slug": "satoshi",
-      "category": "sans-serif",
-      "designer": "Deni Anggara, Indian Type Foundry",
-      "license": "ITF Free Font License (no redistribution)",
-      "source": "https://www.fontshare.com/fonts/satoshi",
-      "hosted": false,
-      "note": "The license forbids re-hosting the files in a public repository, so they are not in this repo. Use the official Fontshare CSS or download from fontshare.com.",
-      "css": "https://api.fontshare.com/v2/css?f[]=satoshi@1,2&display=swap",
-      "download": "https://api.fontshare.com/v2/fonts/download/satoshi",
-      "axes": [
-        {
-          "tag": "wght",
-          "min": 300,
-          "max": 900,
-          "default": 400
-        }
-      ],
-      "weights": [
-        300,
-        400,
-        500,
-        700,
-        900
-      ],
-      "styles": [
-        "normal",
-        "italic"
-      ],
-      "files": []
     }
   ]
 }
