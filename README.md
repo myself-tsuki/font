@@ -1,5 +1,7 @@
 # font
 
+> **This repository powers Muzo for fonts.** Every typeface Muzo uses is served from here through `fonts.json`.
+
 A small, self-hosted font collection served free from GitHub + jsDelivr.
 Every family, weight, style, variable axis and file is listed in one machine-readable index: **[`fonts.json`](fonts.json)**.
 

@@ -1,0 +1,12 @@
+# Python
+__pycache__/
+*.pyc
+
+# OS / editor junk
+.DS_Store
+Thumbs.db
+.vscode/
+.idea/
+
+# Local test page from CONTRIBUTING.md
+test.html
