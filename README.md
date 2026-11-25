@@ -161,8 +161,7 @@ Double-click a `.ttf` to install it on your computer (Windows, macOS and Linux).
 ## Repository layout
 
 ```
-fonts/<Family>/          variable font files + OFL.txt
-*.ttf (repo root)        Inter and Atkinson Hyperlegible Next (original uploads, kept in place)
+fonts/<Family>/          every font: variable files + OFL.txt (no font files in the root)
 css/<slug>.css           @font-face stylesheet per family
 css/all.css              every family in one stylesheet
 fonts.json               index of all families, variants and URLs

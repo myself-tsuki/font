@@ -13,7 +13,7 @@
       "designer": "Braille Institute, Applied Design Works, Elliott Scott, Megan Eiswerth, Letters From Sweden",
       "source": "https://fonts.google.com/specimen/Atkinson+Hyperlegible+Next",
       "license": "SIL Open Font License 1.1",
-      "licenseFile": null,
+      "licenseFile": "https://cdn.jsdelivr.net/gh/myself-tsuki/font@main/fonts/AtkinsonHyperlegibleNext/OFL.txt",
       "hosted": true,
       "css": "https://cdn.jsdelivr.net/gh/myself-tsuki/font@main/css/atkinson-hyperlegible-next.css",
       "axes": [
@@ -39,7 +39,7 @@
       ],
       "files": [
         {
-          "file": "AtkinsonHyperlegibleNext-VariableFont_wght.ttf",
+          "file": "fonts/AtkinsonHyperlegibleNext/AtkinsonHyperlegibleNext-VariableFont_wght.ttf",
           "style": "normal",
           "variable": true,
           "format": "truetype",
@@ -62,11 +62,11 @@
             800
           ],
           "size": 113948,
-          "url": "https://cdn.jsdelivr.net/gh/myself-tsuki/font@main/AtkinsonHyperlegibleNext-VariableFont_wght.ttf",
-          "raw": "https://raw.githubusercontent.com/myself-tsuki/font/main/AtkinsonHyperlegibleNext-VariableFont_wght.ttf"
+          "url": "https://cdn.jsdelivr.net/gh/myself-tsuki/font@main/fonts/AtkinsonHyperlegibleNext/AtkinsonHyperlegibleNext-VariableFont_wght.ttf",
+          "raw": "https://raw.githubusercontent.com/myself-tsuki/font/main/fonts/AtkinsonHyperlegibleNext/AtkinsonHyperlegibleNext-VariableFont_wght.ttf"
         },
         {
-          "file": "AtkinsonHyperlegibleNext-Italic-VariableFont_wght.ttf",
+          "file": "fonts/AtkinsonHyperlegibleNext/AtkinsonHyperlegibleNext-Italic-VariableFont_wght.ttf",
           "style": "italic",
           "variable": true,
           "format": "truetype",
@@ -89,8 +89,8 @@
             800
           ],
           "size": 123148,
-          "url": "https://cdn.jsdelivr.net/gh/myself-tsuki/font@main/AtkinsonHyperlegibleNext-Italic-VariableFont_wght.ttf",
-          "raw": "https://raw.githubusercontent.com/myself-tsuki/font/main/AtkinsonHyperlegibleNext-Italic-VariableFont_wght.ttf"
+          "url": "https://cdn.jsdelivr.net/gh/myself-tsuki/font@main/fonts/AtkinsonHyperlegibleNext/AtkinsonHyperlegibleNext-Italic-VariableFont_wght.ttf",
+          "raw": "https://raw.githubusercontent.com/myself-tsuki/font/main/fonts/AtkinsonHyperlegibleNext/AtkinsonHyperlegibleNext-Italic-VariableFont_wght.ttf"
         }
       ]
     },
@@ -304,7 +304,7 @@
       "designer": "Rasmus Andersson",
       "source": "https://fonts.google.com/specimen/Inter",
       "license": "SIL Open Font License 1.1",
-      "licenseFile": null,
+      "licenseFile": "https://cdn.jsdelivr.net/gh/myself-tsuki/font@main/fonts/Inter/OFL.txt",
       "hosted": true,
       "css": "https://cdn.jsdelivr.net/gh/myself-tsuki/font@main/css/inter.css",
       "axes": [
@@ -338,7 +338,7 @@
       ],
       "files": [
         {
-          "file": "Inter-VariableFont_opsz,wght.ttf",
+          "file": "fonts/Inter/Inter-VariableFont_opsz,wght.ttf",
           "style": "normal",
           "variable": true,
           "format": "truetype",
@@ -369,11 +369,11 @@
             900
           ],
           "size": 874708,
-          "url": "https://cdn.jsdelivr.net/gh/myself-tsuki/font@main/Inter-VariableFont_opsz%2Cwght.ttf",
-          "raw": "https://raw.githubusercontent.com/myself-tsuki/font/main/Inter-VariableFont_opsz%2Cwght.ttf"
+          "url": "https://cdn.jsdelivr.net/gh/myself-tsuki/font@main/fonts/Inter/Inter-VariableFont_opsz%2Cwght.ttf",
+          "raw": "https://raw.githubusercontent.com/myself-tsuki/font/main/fonts/Inter/Inter-VariableFont_opsz%2Cwght.ttf"
         },
         {
-          "file": "Inter-Italic-VariableFont_opsz,wght.ttf",
+          "file": "fonts/Inter/Inter-Italic-VariableFont_opsz,wght.ttf",
           "style": "italic",
           "variable": true,
           "format": "truetype",
@@ -404,8 +404,8 @@
             900
           ],
           "size": 904532,
-          "url": "https://cdn.jsdelivr.net/gh/myself-tsuki/font@main/Inter-Italic-VariableFont_opsz%2Cwght.ttf",
-          "raw": "https://raw.githubusercontent.com/myself-tsuki/font/main/Inter-Italic-VariableFont_opsz%2Cwght.ttf"
+          "url": "https://cdn.jsdelivr.net/gh/myself-tsuki/font@main/fonts/Inter/Inter-Italic-VariableFont_opsz%2Cwght.ttf",
+          "raw": "https://raw.githubusercontent.com/myself-tsuki/font/main/fonts/Inter/Inter-Italic-VariableFont_opsz%2Cwght.ttf"
         }
       ]
     },

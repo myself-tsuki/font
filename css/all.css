@@ -1,13 +1,13 @@
 @font-face {
   font-family: 'Atkinson Hyperlegible Next';
-  src: url('https://cdn.jsdelivr.net/gh/myself-tsuki/font@main/AtkinsonHyperlegibleNext-VariableFont_wght.ttf') format('truetype');
+  src: url('https://cdn.jsdelivr.net/gh/myself-tsuki/font@main/fonts/AtkinsonHyperlegibleNext/AtkinsonHyperlegibleNext-VariableFont_wght.ttf') format('truetype');
   font-weight: 200 800;
   font-style: normal;
   font-display: swap;
 }
 @font-face {
   font-family: 'Atkinson Hyperlegible Next';
-  src: url('https://cdn.jsdelivr.net/gh/myself-tsuki/font@main/AtkinsonHyperlegibleNext-Italic-VariableFont_wght.ttf') format('truetype');
+  src: url('https://cdn.jsdelivr.net/gh/myself-tsuki/font@main/fonts/AtkinsonHyperlegibleNext/AtkinsonHyperlegibleNext-Italic-VariableFont_wght.ttf') format('truetype');
   font-weight: 200 800;
   font-style: italic;
   font-display: swap;
@@ -45,14 +45,14 @@
 
 @font-face {
   font-family: 'Inter';
-  src: url('https://cdn.jsdelivr.net/gh/myself-tsuki/font@main/Inter-VariableFont_opsz%2Cwght.ttf') format('truetype');
+  src: url('https://cdn.jsdelivr.net/gh/myself-tsuki/font@main/fonts/Inter/Inter-VariableFont_opsz%2Cwght.ttf') format('truetype');
   font-weight: 100 900;
   font-style: normal;
   font-display: swap;
 }
 @font-face {
   font-family: 'Inter';
-  src: url('https://cdn.jsdelivr.net/gh/myself-tsuki/font@main/Inter-Italic-VariableFont_opsz%2Cwght.ttf') format('truetype');
+  src: url('https://cdn.jsdelivr.net/gh/myself-tsuki/font@main/fonts/Inter/Inter-Italic-VariableFont_opsz%2Cwght.ttf') format('truetype');
   font-weight: 100 900;
   font-style: italic;
   font-display: swap;

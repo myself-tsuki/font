@@ -72,7 +72,7 @@ fonts/Outfit/Outfit-VariableFont_wght.ttf
 
 Rules:
 
-- **New fonts go in `fonts/<FamilyName>/`.** Don't put new files in the repository root. The `.ttf` files in the root (Inter and Atkinson Hyperlegible Next) are the original uploads, and they stay there so existing links keep working.
+- **New fonts go in `fonts/<FamilyName>/`.** Never put font files in the repository root; every family, including Inter and Atkinson Hyperlegible Next, lives in its own folder.
 - **One family per folder.** Keep the license in the same folder; the index links to it from there.
 - **Don't edit `fonts.json` or `css/` by hand.** They are generated (step 6).
 
@@ -241,5 +241,5 @@ Open the `css` URL in a browser to check that it works before you submit. Then r
 | The family appears twice in `fonts.json` | The two files report different family names. Run `python3 -c "from fontTools.ttLib import TTFont; print(TTFont('path.ttf')['name'].getDebugName(16) or TTFont('path.ttf')['name'].getDebugName(1))"` on each file, and use files from the same release. |
 | The italic file is listed as `normal` | Put `Italic` in the file name (see the naming table). |
 | Two `@font-face` rules for the same style | You added two formats of the same file; keep only one. |
-| `"licenseFile": null` | `OFL.txt` is missing from the family's folder. (This is expected for the original Inter and Atkinson files in the repository root.) |
+| `"licenseFile": null` | `OFL.txt` is missing from the family's folder. |
 | The CDN URL returns 404 right after merging | The jsDelivr CDN caches `@main` for a while. The `raw` GitHub URL works immediately. |
