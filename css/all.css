@@ -1,0 +1,97 @@
+@font-face {
+  font-family: 'Atkinson Hyperlegible Next';
+  src: url('https://cdn.jsdelivr.net/gh/myself-tsuki/font@main/AtkinsonHyperlegibleNext-VariableFont_wght.ttf') format('truetype');
+  font-weight: 200 800;
+  font-style: normal;
+  font-display: swap;
+}
+@font-face {
+  font-family: 'Atkinson Hyperlegible Next';
+  src: url('https://cdn.jsdelivr.net/gh/myself-tsuki/font@main/AtkinsonHyperlegibleNext-Italic-VariableFont_wght.ttf') format('truetype');
+  font-weight: 200 800;
+  font-style: italic;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: 'Figtree';
+  src: url('https://cdn.jsdelivr.net/gh/myself-tsuki/font@main/fonts/Figtree/Figtree-VariableFont_wght.ttf') format('truetype');
+  font-weight: 300 900;
+  font-style: normal;
+  font-display: swap;
+}
+@font-face {
+  font-family: 'Figtree';
+  src: url('https://cdn.jsdelivr.net/gh/myself-tsuki/font@main/fonts/Figtree/Figtree-Italic-VariableFont_wght.ttf') format('truetype');
+  font-weight: 300 900;
+  font-style: italic;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: 'Google Sans';
+  src: url('https://cdn.jsdelivr.net/gh/myself-tsuki/font@main/fonts/GoogleSans/GoogleSans-VariableFont_GRAD%2Copsz%2Cwght.ttf') format('truetype');
+  font-weight: 400 700;
+  font-style: normal;
+  font-display: swap;
+}
+@font-face {
+  font-family: 'Google Sans';
+  src: url('https://cdn.jsdelivr.net/gh/myself-tsuki/font@main/fonts/GoogleSans/GoogleSans-Italic-VariableFont_GRAD%2Copsz%2Cwght.ttf') format('truetype');
+  font-weight: 400 700;
+  font-style: italic;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: 'Inter';
+  src: url('https://cdn.jsdelivr.net/gh/myself-tsuki/font@main/Inter-VariableFont_opsz%2Cwght.ttf') format('truetype');
+  font-weight: 100 900;
+  font-style: normal;
+  font-display: swap;
+}
+@font-face {
+  font-family: 'Inter';
+  src: url('https://cdn.jsdelivr.net/gh/myself-tsuki/font@main/Inter-Italic-VariableFont_opsz%2Cwght.ttf') format('truetype');
+  font-weight: 100 900;
+  font-style: italic;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: 'Nunito';
+  src: url('https://cdn.jsdelivr.net/gh/myself-tsuki/font@main/fonts/Nunito/Nunito-VariableFont_wght.ttf') format('truetype');
+  font-weight: 200 1000;
+  font-style: normal;
+  font-display: swap;
+}
+@font-face {
+  font-family: 'Nunito';
+  src: url('https://cdn.jsdelivr.net/gh/myself-tsuki/font@main/fonts/Nunito/Nunito-Italic-VariableFont_wght.ttf') format('truetype');
+  font-weight: 200 1000;
+  font-style: italic;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: 'Outfit';
+  src: url('https://cdn.jsdelivr.net/gh/myself-tsuki/font@main/fonts/Outfit/Outfit-VariableFont_wght.ttf') format('truetype');
+  font-weight: 100 900;
+  font-style: normal;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: 'Plus Jakarta Sans';
+  src: url('https://cdn.jsdelivr.net/gh/myself-tsuki/font@main/fonts/PlusJakartaSans/PlusJakartaSans-VariableFont_wght.ttf') format('truetype');
+  font-weight: 200 800;
+  font-style: normal;
+  font-display: swap;
+}
+@font-face {
+  font-family: 'Plus Jakarta Sans';
+  src: url('https://cdn.jsdelivr.net/gh/myself-tsuki/font@main/fonts/PlusJakartaSans/PlusJakartaSans-Italic-VariableFont_wght.ttf') format('truetype');
+  font-weight: 200 800;
+  font-style: italic;
+  font-display: swap;
+}

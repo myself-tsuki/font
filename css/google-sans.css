@@ -1,0 +1,14 @@
+@font-face {
+  font-family: 'Google Sans';
+  src: url('https://cdn.jsdelivr.net/gh/myself-tsuki/font@main/fonts/GoogleSans/GoogleSans-VariableFont_GRAD%2Copsz%2Cwght.ttf') format('truetype');
+  font-weight: 400 700;
+  font-style: normal;
+  font-display: swap;
+}
+@font-face {
+  font-family: 'Google Sans';
+  src: url('https://cdn.jsdelivr.net/gh/myself-tsuki/font@main/fonts/GoogleSans/GoogleSans-Italic-VariableFont_GRAD%2Copsz%2Cwght.ttf') format('truetype');
+  font-weight: 400 700;
+  font-style: italic;
+  font-display: swap;
+}

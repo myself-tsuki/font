@@ -1,0 +1,691 @@
+{
+  "name": "myself-tsuki/font",
+  "description": "Self-hosted font collection. Every family, axis, weight and file with direct download URLs.",
+  "repository": "https://github.com/myself-tsuki/font",
+  "cdn": "https://cdn.jsdelivr.net/gh/myself-tsuki/font@main/",
+  "allCss": "https://cdn.jsdelivr.net/gh/myself-tsuki/font@main/css/all.css",
+  "count": 8,
+  "fonts": [
+    {
+      "family": "Atkinson Hyperlegible Next",
+      "slug": "atkinson-hyperlegible-next",
+      "category": "sans-serif",
+      "designer": "Braille Institute, Applied Design Works, Elliott Scott, Megan Eiswerth, Letters From Sweden",
+      "source": "https://fonts.google.com/specimen/Atkinson+Hyperlegible+Next",
+      "license": "SIL Open Font License 1.1",
+      "licenseFile": null,
+      "hosted": true,
+      "css": "https://cdn.jsdelivr.net/gh/myself-tsuki/font@main/css/atkinson-hyperlegible-next.css",
+      "axes": [
+        {
+          "tag": "wght",
+          "min": 200,
+          "max": 800,
+          "default": 400
+        }
+      ],
+      "weights": [
+        200,
+        300,
+        400,
+        500,
+        600,
+        700,
+        800
+      ],
+      "styles": [
+        "normal",
+        "italic"
+      ],
+      "files": [
+        {
+          "file": "AtkinsonHyperlegibleNext-VariableFont_wght.ttf",
+          "style": "normal",
+          "variable": true,
+          "format": "truetype",
+          "version": "2.001",
+          "axes": [
+            {
+              "tag": "wght",
+              "min": 200,
+              "max": 800,
+              "default": 400
+            }
+          ],
+          "weights": [
+            200,
+            300,
+            400,
+            500,
+            600,
+            700,
+            800
+          ],
+          "size": 113948,
+          "url": "https://cdn.jsdelivr.net/gh/myself-tsuki/font@main/AtkinsonHyperlegibleNext-VariableFont_wght.ttf",
+          "raw": "https://raw.githubusercontent.com/myself-tsuki/font/main/AtkinsonHyperlegibleNext-VariableFont_wght.ttf"
+        },
+        {
+          "file": "AtkinsonHyperlegibleNext-Italic-VariableFont_wght.ttf",
+          "style": "italic",
+          "variable": true,
+          "format": "truetype",
+          "version": "2.001",
+          "axes": [
+            {
+              "tag": "wght",
+              "min": 200,
+              "max": 800,
+              "default": 400
+            }
+          ],
+          "weights": [
+            200,
+            300,
+            400,
+            500,
+            600,
+            700,
+            800
+          ],
+          "size": 123148,
+          "url": "https://cdn.jsdelivr.net/gh/myself-tsuki/font@main/AtkinsonHyperlegibleNext-Italic-VariableFont_wght.ttf",
+          "raw": "https://raw.githubusercontent.com/myself-tsuki/font/main/AtkinsonHyperlegibleNext-Italic-VariableFont_wght.ttf"
+        }
+      ]
+    },
+    {
+      "family": "Figtree",
+      "slug": "figtree",
+      "category": "sans-serif",
+      "designer": "Erik Kennedy",
+      "source": "https://fonts.google.com/specimen/Figtree",
+      "license": "SIL Open Font License 1.1",
+      "licenseFile": "https://cdn.jsdelivr.net/gh/myself-tsuki/font@main/fonts/Figtree/OFL.txt",
+      "hosted": true,
+      "css": "https://cdn.jsdelivr.net/gh/myself-tsuki/font@main/css/figtree.css",
+      "axes": [
+        {
+          "tag": "wght",
+          "min": 300,
+          "max": 900,
+          "default": 300
+        }
+      ],
+      "weights": [
+        300,
+        400,
+        500,
+        600,
+        700,
+        800,
+        900
+      ],
+      "styles": [
+        "normal",
+        "italic"
+      ],
+      "files": [
+        {
+          "file": "fonts/Figtree/Figtree-VariableFont_wght.ttf",
+          "style": "normal",
+          "variable": true,
+          "format": "truetype",
+          "version": "2.002",
+          "axes": [
+            {
+              "tag": "wght",
+              "min": 300,
+              "max": 900,
+              "default": 300
+            }
+          ],
+          "weights": [
+            300,
+            400,
+            500,
+            600,
+            700,
+            800,
+            900
+          ],
+          "size": 62712,
+          "url": "https://cdn.jsdelivr.net/gh/myself-tsuki/font@main/fonts/Figtree/Figtree-VariableFont_wght.ttf",
+          "raw": "https://raw.githubusercontent.com/myself-tsuki/font/main/fonts/Figtree/Figtree-VariableFont_wght.ttf"
+        },
+        {
+          "file": "fonts/Figtree/Figtree-Italic-VariableFont_wght.ttf",
+          "style": "italic",
+          "variable": true,
+          "format": "truetype",
+          "version": "2.002",
+          "axes": [
+            {
+              "tag": "wght",
+              "min": 300,
+              "max": 900,
+              "default": 300
+            }
+          ],
+          "weights": [
+            300,
+            400,
+            500,
+            600,
+            700,
+            800,
+            900
+          ],
+          "size": 62632,
+          "url": "https://cdn.jsdelivr.net/gh/myself-tsuki/font@main/fonts/Figtree/Figtree-Italic-VariableFont_wght.ttf",
+          "raw": "https://raw.githubusercontent.com/myself-tsuki/font/main/fonts/Figtree/Figtree-Italic-VariableFont_wght.ttf"
+        }
+      ]
+    },
+    {
+      "family": "Google Sans",
+      "slug": "google-sans",
+      "category": "sans-serif",
+      "designer": "Google",
+      "source": "https://fonts.google.com/specimen/Google+Sans",
+      "license": "SIL Open Font License 1.1",
+      "licenseFile": "https://cdn.jsdelivr.net/gh/myself-tsuki/font@main/fonts/GoogleSans/OFL.txt",
+      "hosted": true,
+      "css": "https://cdn.jsdelivr.net/gh/myself-tsuki/font@main/css/google-sans.css",
+      "axes": [
+        {
+          "tag": "opsz",
+          "min": 17,
+          "max": 18,
+          "default": 18
+        },
+        {
+          "tag": "wght",
+          "min": 400,
+          "max": 700,
+          "default": 400
+        },
+        {
+          "tag": "GRAD",
+          "min": -50,
+          "max": 200,
+          "default": 0
+        }
+      ],
+      "weights": [
+        400,
+        500,
+        600,
+        700
+      ],
+      "styles": [
+        "normal",
+        "italic"
+      ],
+      "files": [
+        {
+          "file": "fonts/GoogleSans/GoogleSans-VariableFont_GRAD,opsz,wght.ttf",
+          "style": "normal",
+          "variable": true,
+          "format": "truetype",
+          "version": "14.000",
+          "axes": [
+            {
+              "tag": "opsz",
+              "min": 17,
+              "max": 18,
+              "default": 18
+            },
+            {
+              "tag": "wght",
+              "min": 400,
+              "max": 700,
+              "default": 400
+            },
+            {
+              "tag": "GRAD",
+              "min": -50,
+              "max": 200,
+              "default": 0
+            }
+          ],
+          "weights": [
+            400,
+            500,
+            600,
+            700
+          ],
+          "size": 4974940,
+          "url": "https://cdn.jsdelivr.net/gh/myself-tsuki/font@main/fonts/GoogleSans/GoogleSans-VariableFont_GRAD%2Copsz%2Cwght.ttf",
+          "raw": "https://raw.githubusercontent.com/myself-tsuki/font/main/fonts/GoogleSans/GoogleSans-VariableFont_GRAD%2Copsz%2Cwght.ttf"
+        },
+        {
+          "file": "fonts/GoogleSans/GoogleSans-Italic-VariableFont_GRAD,opsz,wght.ttf",
+          "style": "italic",
+          "variable": true,
+          "format": "truetype",
+          "version": "14.000",
+          "axes": [
+            {
+              "tag": "opsz",
+              "min": 17,
+              "max": 18,
+              "default": 18
+            },
+            {
+              "tag": "wght",
+              "min": 400,
+              "max": 700,
+              "default": 400
+            },
+            {
+              "tag": "GRAD",
+              "min": -50,
+              "max": 200,
+              "default": 0
+            }
+          ],
+          "weights": [
+            400,
+            500,
+            600,
+            700
+          ],
+          "size": 5079424,
+          "url": "https://cdn.jsdelivr.net/gh/myself-tsuki/font@main/fonts/GoogleSans/GoogleSans-Italic-VariableFont_GRAD%2Copsz%2Cwght.ttf",
+          "raw": "https://raw.githubusercontent.com/myself-tsuki/font/main/fonts/GoogleSans/GoogleSans-Italic-VariableFont_GRAD%2Copsz%2Cwght.ttf"
+        }
+      ]
+    },
+    {
+      "family": "Inter",
+      "slug": "inter",
+      "category": "sans-serif",
+      "designer": "Rasmus Andersson",
+      "source": "https://fonts.google.com/specimen/Inter",
+      "license": "SIL Open Font License 1.1",
+      "licenseFile": null,
+      "hosted": true,
+      "css": "https://cdn.jsdelivr.net/gh/myself-tsuki/font@main/css/inter.css",
+      "axes": [
+        {
+          "tag": "opsz",
+          "min": 14,
+          "max": 32,
+          "default": 14
+        },
+        {
+          "tag": "wght",
+          "min": 100,
+          "max": 900,
+          "default": 400
+        }
+      ],
+      "weights": [
+        100,
+        200,
+        300,
+        400,
+        500,
+        600,
+        700,
+        800,
+        900
+      ],
+      "styles": [
+        "normal",
+        "italic"
+      ],
+      "files": [
+        {
+          "file": "Inter-VariableFont_opsz,wght.ttf",
+          "style": "normal",
+          "variable": true,
+          "format": "truetype",
+          "version": "4.001",
+          "axes": [
+            {
+              "tag": "opsz",
+              "min": 14,
+              "max": 32,
+              "default": 14
+            },
+            {
+              "tag": "wght",
+              "min": 100,
+              "max": 900,
+              "default": 400
+            }
+          ],
+          "weights": [
+            100,
+            200,
+            300,
+            400,
+            500,
+            600,
+            700,
+            800,
+            900
+          ],
+          "size": 874708,
+          "url": "https://cdn.jsdelivr.net/gh/myself-tsuki/font@main/Inter-VariableFont_opsz%2Cwght.ttf",
+          "raw": "https://raw.githubusercontent.com/myself-tsuki/font/main/Inter-VariableFont_opsz%2Cwght.ttf"
+        },
+        {
+          "file": "Inter-Italic-VariableFont_opsz,wght.ttf",
+          "style": "italic",
+          "variable": true,
+          "format": "truetype",
+          "version": "4.001",
+          "axes": [
+            {
+              "tag": "opsz",
+              "min": 14,
+              "max": 32,
+              "default": 14
+            },
+            {
+              "tag": "wght",
+              "min": 100,
+              "max": 900,
+              "default": 400
+            }
+          ],
+          "weights": [
+            100,
+            200,
+            300,
+            400,
+            500,
+            600,
+            700,
+            800,
+            900
+          ],
+          "size": 904532,
+          "url": "https://cdn.jsdelivr.net/gh/myself-tsuki/font@main/Inter-Italic-VariableFont_opsz%2Cwght.ttf",
+          "raw": "https://raw.githubusercontent.com/myself-tsuki/font/main/Inter-Italic-VariableFont_opsz%2Cwght.ttf"
+        }
+      ]
+    },
+    {
+      "family": "Nunito",
+      "slug": "nunito",
+      "category": "sans-serif",
+      "designer": "Vernon Adams, Cyreal, Jacques Le Bailly",
+      "source": "https://fonts.google.com/specimen/Nunito",
+      "license": "SIL Open Font License 1.1",
+      "licenseFile": "https://cdn.jsdelivr.net/gh/myself-tsuki/font@main/fonts/Nunito/OFL.txt",
+      "hosted": true,
+      "css": "https://cdn.jsdelivr.net/gh/myself-tsuki/font@main/css/nunito.css",
+      "axes": [
+        {
+          "tag": "wght",
+          "min": 200,
+          "max": 1000,
+          "default": 200
+        }
+      ],
+      "weights": [
+        200,
+        300,
+        400,
+        500,
+        600,
+        700,
+        800,
+        900,
+        1000
+      ],
+      "styles": [
+        "normal",
+        "italic"
+      ],
+      "files": [
+        {
+          "file": "fonts/Nunito/Nunito-VariableFont_wght.ttf",
+          "style": "normal",
+          "variable": true,
+          "format": "truetype",
+          "version": "3.602",
+          "axes": [
+            {
+              "tag": "wght",
+              "min": 200,
+              "max": 1000,
+              "default": 200
+            }
+          ],
+          "weights": [
+            200,
+            300,
+            400,
+            500,
+            600,
+            700,
+            800,
+            900,
+            1000
+          ],
+          "size": 276932,
+          "url": "https://cdn.jsdelivr.net/gh/myself-tsuki/font@main/fonts/Nunito/Nunito-VariableFont_wght.ttf",
+          "raw": "https://raw.githubusercontent.com/myself-tsuki/font/main/fonts/Nunito/Nunito-VariableFont_wght.ttf"
+        },
+        {
+          "file": "fonts/Nunito/Nunito-Italic-VariableFont_wght.ttf",
+          "style": "italic",
+          "variable": true,
+          "format": "truetype",
+          "version": "3.602",
+          "axes": [
+            {
+              "tag": "wght",
+              "min": 200,
+              "max": 1000,
+              "default": 200
+            }
+          ],
+          "weights": [
+            200,
+            300,
+            400,
+            500,
+            600,
+            700,
+            800,
+            900,
+            1000
+          ],
+          "size": 281832,
+          "url": "https://cdn.jsdelivr.net/gh/myself-tsuki/font@main/fonts/Nunito/Nunito-Italic-VariableFont_wght.ttf",
+          "raw": "https://raw.githubusercontent.com/myself-tsuki/font/main/fonts/Nunito/Nunito-Italic-VariableFont_wght.ttf"
+        }
+      ]
+    },
+    {
+      "family": "Outfit",
+      "slug": "outfit",
+      "category": "sans-serif",
+      "designer": "Rodrigo Fuenzalida, Outfit.io",
+      "source": "https://fonts.google.com/specimen/Outfit",
+      "license": "SIL Open Font License 1.1",
+      "licenseFile": "https://cdn.jsdelivr.net/gh/myself-tsuki/font@main/fonts/Outfit/OFL.txt",
+      "hosted": true,
+      "css": "https://cdn.jsdelivr.net/gh/myself-tsuki/font@main/css/outfit.css",
+      "axes": [
+        {
+          "tag": "wght",
+          "min": 100,
+          "max": 900,
+          "default": 100
+        }
+      ],
+      "weights": [
+        100,
+        200,
+        300,
+        400,
+        500,
+        600,
+        700,
+        800,
+        900
+      ],
+      "styles": [
+        "normal"
+      ],
+      "files": [
+        {
+          "file": "fonts/Outfit/Outfit-VariableFont_wght.ttf",
+          "style": "normal",
+          "variable": true,
+          "format": "truetype",
+          "version": "1.100",
+          "axes": [
+            {
+              "tag": "wght",
+              "min": 100,
+              "max": 900,
+              "default": 100
+            }
+          ],
+          "weights": [
+            100,
+            200,
+            300,
+            400,
+            500,
+            600,
+            700,
+            800,
+            900
+          ],
+          "size": 110884,
+          "url": "https://cdn.jsdelivr.net/gh/myself-tsuki/font@main/fonts/Outfit/Outfit-VariableFont_wght.ttf",
+          "raw": "https://raw.githubusercontent.com/myself-tsuki/font/main/fonts/Outfit/Outfit-VariableFont_wght.ttf"
+        }
+      ]
+    },
+    {
+      "family": "Plus Jakarta Sans",
+      "slug": "plus-jakarta-sans",
+      "category": "sans-serif",
+      "designer": "Tokotype",
+      "source": "https://fonts.google.com/specimen/Plus+Jakarta+Sans",
+      "license": "SIL Open Font License 1.1",
+      "licenseFile": "https://cdn.jsdelivr.net/gh/myself-tsuki/font@main/fonts/PlusJakartaSans/OFL.txt",
+      "hosted": true,
+      "css": "https://cdn.jsdelivr.net/gh/myself-tsuki/font@main/css/plus-jakarta-sans.css",
+      "axes": [
+        {
+          "tag": "wght",
+          "min": 200,
+          "max": 800,
+          "default": 400
+        }
+      ],
+      "weights": [
+        200,
+        300,
+        400,
+        500,
+        600,
+        700,
+        800
+      ],
+      "styles": [
+        "normal",
+        "italic"
+      ],
+      "files": [
+        {
+          "file": "fonts/PlusJakartaSans/PlusJakartaSans-VariableFont_wght.ttf",
+          "style": "normal",
+          "variable": true,
+          "format": "truetype",
+          "version": "2.071",
+          "axes": [
+            {
+              "tag": "wght",
+              "min": 200,
+              "max": 800,
+              "default": 400
+            }
+          ],
+          "weights": [
+            200,
+            300,
+            400,
+            500,
+            600,
+            700,
+            800
+          ],
+          "size": 176288,
+          "url": "https://cdn.jsdelivr.net/gh/myself-tsuki/font@main/fonts/PlusJakartaSans/PlusJakartaSans-VariableFont_wght.ttf",
+          "raw": "https://raw.githubusercontent.com/myself-tsuki/font/main/fonts/PlusJakartaSans/PlusJakartaSans-VariableFont_wght.ttf"
+        },
+        {
+          "file": "fonts/PlusJakartaSans/PlusJakartaSans-Italic-VariableFont_wght.ttf",
+          "style": "italic",
+          "variable": true,
+          "format": "truetype",
+          "version": "2.071",
+          "axes": [
+            {
+              "tag": "wght",
+              "min": 200,
+              "max": 800,
+              "default": 400
+            }
+          ],
+          "weights": [
+            200,
+            300,
+            400,
+            500,
+            600,
+            700,
+            800
+          ],
+          "size": 183188,
+          "url": "https://cdn.jsdelivr.net/gh/myself-tsuki/font@main/fonts/PlusJakartaSans/PlusJakartaSans-Italic-VariableFont_wght.ttf",
+          "raw": "https://raw.githubusercontent.com/myself-tsuki/font/main/fonts/PlusJakartaSans/PlusJakartaSans-Italic-VariableFont_wght.ttf"
+        }
+      ]
+    },
+    {
+      "family": "Satoshi",
+      "slug": "satoshi",
+      "category": "sans-serif",
+      "designer": "Deni Anggara, Indian Type Foundry",
+      "license": "ITF Free Font License (no redistribution)",
+      "source": "https://www.fontshare.com/fonts/satoshi",
+      "hosted": false,
+      "note": "The license forbids re-hosting the files in a public repository, so they are not in this repo. Use the official Fontshare CSS or download from fontshare.com.",
+      "css": "https://api.fontshare.com/v2/css?f[]=satoshi@1,2&display=swap",
+      "download": "https://api.fontshare.com/v2/fonts/download/satoshi",
+      "axes": [
+        {
+          "tag": "wght",
+          "min": 300,
+          "max": 900,
+          "default": 400
+        }
+      ],
+      "weights": [
+        300,
+        400,
+        500,
+        700,
+        900
+      ],
+      "styles": [
+        "normal",
+        "italic"
+      ],
+      "files": []
+    }
+  ]
+}

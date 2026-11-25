@@ -1,0 +1,14 @@
+@font-face {
+  font-family: 'Plus Jakarta Sans';
+  src: url('https://cdn.jsdelivr.net/gh/myself-tsuki/font@main/fonts/PlusJakartaSans/PlusJakartaSans-VariableFont_wght.ttf') format('truetype');
+  font-weight: 200 800;
+  font-style: normal;
+  font-display: swap;
+}
+@font-face {
+  font-family: 'Plus Jakarta Sans';
+  src: url('https://cdn.jsdelivr.net/gh/myself-tsuki/font@main/fonts/PlusJakartaSans/PlusJakartaSans-Italic-VariableFont_wght.ttf') format('truetype');
+  font-weight: 200 800;
+  font-style: italic;
+  font-display: swap;
+}
